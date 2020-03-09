@@ -10,7 +10,7 @@ from PIL import Image
 import xml.etree.ElementTree as ET
 
 
-class D(Dataset):
+class CustomDataset(Dataset):
 
 	def __init__(self, dir_csv, dir_img, transforms=None):
 		"""
